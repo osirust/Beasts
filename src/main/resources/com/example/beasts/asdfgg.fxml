@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.CubicCurve?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="852.0" prefWidth="1255.0" style="-fx-background-color: #d2d2d2;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.beasts.Controller2">
+   <children>
+      <AnchorPane prefHeight="111.0" prefWidth="1255.0" style="-fx-background-color: #70eac7;">
+         <children>
+            <CubicCurve controlX1="-50.0" controlX2="50.0" controlY1="-100.0" controlY2="100.0" endX="301.093994140625" fill="DODGERBLUE" layoutX="416.0" layoutY="56.0" startX="-150.0" stroke="BLACK" />
+            <CubicCurve controlX1="-285.0" controlX2="-138.0" controlY1="44.0" controlY2="-62.0" endX="150.0" fill="DODGERBLUE" layoutX="566.0" layoutY="56.0" startX="-301.20709228515625" stroke="BLACK" />
+            <CubicCurve controlX1="-178.0" controlX2="50.0" controlY1="-162.0" controlY2="100.0" endX="150.0" fill="DODGERBLUE" layoutX="717.0" layoutY="56.0" startX="-226.6275634765625" startY="-4.4855804443359375" stroke="BLACK" />
+            <CubicCurve controlX1="-50.0" controlX2="-147.689453125" controlY1="-100.0" controlY2="81.9921875" endX="150.0" fill="DODGERBLUE" layoutX="868.0" layoutY="56.0" startX="-150.0" stroke="BLACK" />
+            <CubicCurve controlX1="-245.0" controlX2="201.0" controlY1="-170.0" controlY2="148.0" endX="238.5999755859375" endY="-0.40000152587890625" fill="DODGERBLUE" layoutX="1019.0" layoutY="56.0" startX="-215.199951171875" startY="7.62939453125E-6" stroke="BLACK" />
+            <CubicCurve controlX1="-118.0" controlX2="100.0" controlY1="-157.0" controlY2="131.0" endX="85.199951171875" endY="-0.40000152587890625" fill="DODGERBLUE" layoutX="1170.0" layoutY="56.0" startX="-150.0" stroke="BLACK" />
+         </children></AnchorPane>
+      <AnchorPane prefHeight="852.0" prefWidth="265.0" style="-fx-background-color: #545bbd;">
+         <children>
+            <Text layoutX="78.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Beasts" wrappingWidth="110.509765625">
+               <font>
+                  <Font name="System Bold Italic" size="36.0" />
+               </font>
+            </Text>
+            <Button fx:id="exitBut" layoutX="22.0" layoutY="782.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="221.0" style="-fx-background-color: #76d4e0; -fx-background-radius: 45;" text="Закрыть программу">
+               <font>
+                  <Font size="21.0" />
+               </font></Button>
+            <Separator layoutX="33.0" layoutY="752.0" prefHeight="27.0" prefWidth="200.0" />
+            <Separator layoutX="30.0" layoutY="105.0" prefWidth="200.0" />
+            <Button fx:id="Ondatra" layoutX="30.0" layoutY="124.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" style="-fx-background-radius: 23;" text="Ондатра">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button fx:id="BobrBut" layoutX="29.0" layoutY="172.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" style="-fx-background-radius: 45;" text="Бобр речной">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button fx:id="EjBut" layoutX="29.0" layoutY="224.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" style="-fx-background-radius: 45;" text="Ёж">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button fx:id="MedvedBut" layoutX="30.0" layoutY="273.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" style="-fx-background-radius: 24;" text="Медведь бурый">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button fx:id="RabbitBut" layoutX="29.0" layoutY="328.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" style="-fx-background-radius: 54;" text="Заяц-беляк">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button fx:id="ByrozybkaBut" layoutX="29.0" layoutY="388.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" style="-fx-background-radius: 45;" text="Бурозубка обыкновенная">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button fx:id="KrasaBut" layoutX="29.0" layoutY="445.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" style="-fx-background-radius: 34;" text="Крыса серая">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button fx:id="MashovkaBut" layoutX="29.0" layoutY="504.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" style="-fx-background-radius: 54;" text="Мышовка лесная">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button fx:id="SoniaBut" layoutX="29.0" layoutY="558.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" style="-fx-background-radius: 345;" text="Соня лесная">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button fx:id="NochnicaBut" layoutX="29.0" layoutY="610.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" style="-fx-background-radius: 45;" text="Ночница водяная">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button fx:id="KabanBut" layoutX="29.0" layoutY="670.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" style="-fx-background-radius: 53;" text="Кабан">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button fx:id="RasBut" layoutX="29.0" layoutY="727.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" style="-fx-background-radius: 43;" text="Рысь">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+         </children></AnchorPane>
+      <Text layoutX="381.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Млекопитающие  животные Тверской области" wrappingWidth="676.62109375">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font></Text>
+      <Text fontSmoothingType="LCD" layoutX="650.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ондатра" wrappingWidth="139.509765625">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font></Text>
+      <Text layoutX="720.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Строение тела ондатры схоже с крупными крысами. Взрослые представители весят в пределах двух килограммов с длиной тела от 23 до 36 сантиметров. Длина хвоста сравнима с длиной тела и может варьироваться в пределах от 18 до 28 сантиметров." wrappingWidth="510.13671875">
+         <font>
+            <Font size="27.0" />
+         </font></Text>
+      <Text layoutX="294.0" layoutY="501.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Тело этого зверька имеет цилиндрическую форму. Голова небольших размеров с вытянутой мордой. Шея коротковатая. На голове расположены небольшие ушки, которые можно не заметить из-за меха. Глаза маленькие и высоко расположенные на мордочке.Ондатры едят растительную пищу, но могут питаться и различными земноводными животными. Из растительности предпочитают капусту, сорняки, камыши и ряд растений, находящихся в воде. Жертвами ондатр могут быть раки, мелкая рыба, моллюски и лягушки. Не брезгуют питаться падалью. Порядка 7 процентов рациона состоит из животной пищи." wrappingWidth="869.13671875">
+         <font>
+            <Font size="27.0" />
+         </font></Text>
+      <ImageView fitHeight="285.0" fitWidth="319.0" layoutX="317.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/ондатра.jpg" />
+         </image></ImageView>
+   </children>
+</AnchorPane>
